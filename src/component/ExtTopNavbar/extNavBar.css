@@ -1,0 +1,12 @@
+.ExtNavBar{
+    height: 44px;
+    background-color: #dcdcdc;
+}
+.parentExtLogo{
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+}
+.ExtLogo{
+    height: 36px;
+}
