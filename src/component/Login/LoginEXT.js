@@ -29,6 +29,7 @@ class LoginEXT extends Component {
                                     <input required className="passwordBox form-control" id="extPassword" type="password" pattern=".{4,}" autoComplete="off" onChange={this.handleChange} />
                                 </div>
                             </form>
+                            <br/>
                             <button className="btn btn-primary customPassBtn" disabled={!isEnabled}>Log In</button>
                         </div>
 

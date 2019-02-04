@@ -1,0 +1,8 @@
+.AccountList .userAccount{
+    display: flex;
+}
+.AccountList .userAccount img{
+    width: 30px;
+    margin-right: 10px;
+    margin-top: -14px;
+}
