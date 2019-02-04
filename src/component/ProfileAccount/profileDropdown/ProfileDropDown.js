@@ -22,10 +22,10 @@ class ProfileDropDown extends Component {
                         </div>
                     </div>
                     <div className="createAccountForm" style={{borderTop:"1px solid #dcdcdc",marginTop:"12px",marginBottom:"12px"}}>
-                            <CreateAccountdrop/>
+                            <CreateAccountdrop toggle={this.props.toggle}/>
                     </div>
                     <div className="createAccountForm" style={{borderTop:"1px solid #dcdcdc",marginTop:"12px",marginBottom:"12px"}}>
-                            <InfoandSetting/>
+                            <InfoandSetting toggle={this.props.toggle}/>
                     </div>
                 </div>
             </div>

@@ -7,9 +7,9 @@ class AccountList extends Component {
         userAccountDetail: [
             { id: "1", name: "shorupan", amount: "100", avatar:Profile },
             { id: "2", name: "sushil", amount: "0", avatar:Profile },
-            { id: "2", name: "Kishore", amount: "0", avatar:Profile },
-            { id: "2", name: "chiranjeevi", amount: "0", avatar:Profile },
-            { id: "2", name: "shudanshu", amount: "0", avatar:Profile },
+            { id: "3", name: "Kishore", amount: "0", avatar:Profile },
+            { id: "4", name: "chiranjeevi", amount: "0", avatar:Profile },
+            { id: "5", name: "shudanshu", amount: "0", avatar:Profile },
         ]
     }
     render() {
@@ -19,7 +19,7 @@ class AccountList extends Component {
                 {
                     this.state.userAccountDetail.map(user => {
                         return (
-                            <div className="userAccount" style={{ color: "white" }}>
+                            <div className="userAccount" style={{ color: "white" }} key={user.id}>
                                 <img style={{ width: "30px", marginLeft: "10px" }} src={user.avatar} alt="" />
                                 <div className="userName">
                                     <span style={{ display: "block", fontWeight: "bold" }}>{user.name}</span>

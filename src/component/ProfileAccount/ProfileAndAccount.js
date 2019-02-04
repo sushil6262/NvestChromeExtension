@@ -4,7 +4,7 @@ import ProfileDropDown from './profileDropdown/ProfileDropDown'
 
 class ProfileAndAccount extends Component {
     state={
-        dropDownVis:true
+        dropDownVis:false
     }
 
     toggleDropDown=()=>{
@@ -18,7 +18,7 @@ class ProfileAndAccount extends Component {
                 <span onClick={this.toggleDropDown} className="profileImage">
 
                 </span>
-                {this.state.dropDownVis?<ProfileDropDown/>:""}
+                {this.state.dropDownVis?<ProfileDropDown toggle={this.toggleDropDown}/>:""}
             </span>
         );
     }

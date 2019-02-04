@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './login.css';
 import WelcomeImgMsg from '../welcomeImgMsg/WelcomeImgMsg';
-import Router ,{ Link, goBack } from 'route-lite';
+import { Link} from 'route-lite';
 import Test from '../Test';
 
 class LoginEXT extends Component {

@@ -6,8 +6,8 @@ class InfoandSetting extends Component {
         return (
             <div style={{color:"white"}}>
                     <ul className="listCreation">
-                        <li><i class="fas fa-info-circle"></i><span style={{marginLeft:"12px"}}>info and Help</span></li>
-                        <li><i class="fas fa-cog"></i><span style={{marginLeft:"12px"}}>Setting</span></li>
+                        <li><i className="fas fa-info-circle"></i><span style={{marginLeft:"12px"}}>info and Help</span></li>
+                        <li><i className="fas fa-cog"></i><span style={{marginLeft:"12px"}}>Setting</span></li>
                     </ul>
             </div>
         );

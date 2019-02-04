@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ExtNavBar from './ExtTopNavbar/ExtNavBar';
-import { Link, goBack } from 'route-lite';
+import { goBack } from 'route-lite';
 
 class Test extends Component {
     render() {
