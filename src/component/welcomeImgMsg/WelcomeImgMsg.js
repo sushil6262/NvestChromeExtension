@@ -5,7 +5,7 @@ import './WelcomeImgMsg.css';
 const WelcomeImgMsg = ({LgwelMessage,LgwelTitle}) => {
     return (
         <div>
-            <div className="Contentimg">
+            <div className="Contentimg" style={{textAlign:"center"}}>
                 <img src={LogoEXT} alt="ExtLogo" />
             </div>
             <div className="MessageExt">
