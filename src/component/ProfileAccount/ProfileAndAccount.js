@@ -4,7 +4,7 @@ import ProfileDropDown from './profileDropdown/ProfileDropDown'
 
 class ProfileAndAccount extends Component {
     state={
-        dropDownVis:false
+        dropDownVis:true
     }
 
     toggleDropDown=()=>{
