@@ -36,7 +36,7 @@ class ReadSeedWords extends Component {
                             <div className="centeringform">
                                 <div className="form-group cstFormGrp">
                                     <label style={{ color: "#a5a3a3", float: "left" }}>Enter password to continue</label>
-                                    <input required className="passwordBox form-control" id="extPassword" type="text" pattern=".{4,}" autoComplete="off" onChange={this.handleChange} />
+                                    <input required className="passwordBox form-control" id="extPassword" type="password" pattern=".{4,}" autoComplete="off" onChange={this.handleChange} />
                                 </div>
                             </div>
                             <div className="btngrp">

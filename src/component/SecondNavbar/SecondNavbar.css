@@ -1,0 +1,26 @@
+.hmbrgmenu{
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.accountNamesecondNavbar{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+}
+.displaySecond{
+    display: flex;
+    justify-content: space-between;
+}
+.textellipses{
+    white-space: nowrap; 
+    width: 100px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    cursor: pointer;
+}
