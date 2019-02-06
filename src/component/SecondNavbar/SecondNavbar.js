@@ -4,7 +4,7 @@ class SecondNavbar extends Component {
     render() {
         return (
             <div style={{height:"40px",backgroundColor:"#ccc"}}>
-                hello navbar
+                <i className="fas fa-bars"></i>
             </div>
         );
     }
