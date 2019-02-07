@@ -16,8 +16,8 @@ class ProfileDropDown extends Component {
                             <span style={{color:"white", cursor:"pointer"}}> <img style={{width:"20px"}} src={Logout} alt="logOut"/>  Log Out</span>
                         </span>
                     </div>
-                    <div className="acountGroup" style={{overflowY:"scroll"}}>
-                        <div style={{padding:"12px"}}>
+                    <div className="acountGroup" style={{overflowY:"auto"}}>
+                        <div style={{padding:"12px",paddingBottom:"0"}}>
                             <AccountList/>
                         </div>
                     </div>

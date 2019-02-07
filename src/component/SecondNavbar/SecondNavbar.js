@@ -23,8 +23,8 @@ class SecondNavbar extends Component {
                     <span><i style={{color:"white",lineHeight:"40px",marginRight:"12px",cursor:"pointer"}} className="fas fa-ellipsis-h"></i></span>
                 </div>
                 <div className={this.state.hideSecondsidebar?"secondNabrside":"secondNabrsidepull"}>
-                <i className="fas fa-times hmbrgmenu" onClick={this.secondToggle}></i>
-                <SecondSidebarContent/>
+                <i className="fas fa-times hmbrgmenu" style={{color:"#172444"}} onClick={this.secondToggle}></i>
+                <SecondSidebarContent secondToggle={this.secondToggle}/>
                 </div>
             </div>
         );

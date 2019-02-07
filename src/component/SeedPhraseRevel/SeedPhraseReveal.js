@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ExtNavBar from '../ExtTopNavbar/ExtNavBar';
-import { Link } from 'route-lite';
 import './seedPhrasereveal.css'
 
 class SeedPhraseReveal extends Component {

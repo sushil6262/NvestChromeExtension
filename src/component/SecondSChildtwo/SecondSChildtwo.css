@@ -1,15 +1,17 @@
 .SecondSChildtwo{
     color: white;
     padding: 12px;
-    height: 254px;
+    max-height: 240px;
     border-top:1px solid #dcdcdc;
-    overflow-y: scroll;
+    overflow-y: auto;
     background-color: #444444;
+    transition: all 500ms;
 }
 .tokenSSCParent{
     display: flex;
     margin-top: 6px;
     margin-bottom: 6px;
+    cursor: pointer;
 }
 .tokenValue{
     margin-left: 12px;

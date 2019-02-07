@@ -1,0 +1,15 @@
+.DetailView{
+    padding: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12px;
+}
+.DetailView .textStyle{
+    font-weight:900
+}
+.DetailView .cstmdepoandsndstyle{
+    width: 90px;
+    border-radius: 0;
+}

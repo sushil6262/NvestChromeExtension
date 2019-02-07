@@ -3,6 +3,7 @@ import './login.css';
 import WelcomeImgMsg from '../welcomeImgMsg/WelcomeImgMsg';
 import { Link} from 'route-lite';
 import Test from '../Test';
+import AccountDetailView from '../AccountDetailView/AccountDetailView'
 
 
 class LoginEXT extends Component {
@@ -16,7 +17,7 @@ class LoginEXT extends Component {
     }
     render() {
         let extPassword = this.state.extPassword;
-        const isEnabled = extPassword.length > 4;
+        const isEnabled = extPassword === "sushil";
         return (
             <div>
                 <div className="loginParent">
@@ -31,7 +32,9 @@ class LoginEXT extends Component {
                                 </div>
                             </form>
                             <br/>
-                            <button className="btn btn-primary customPassBtn" disabled={!isEnabled}>Log In</button>
+                            <Link component={AccountDetailView}>
+                                <button className="btn btn-primary customPassBtn" disabled={!isEnabled}>Log In</button>
+                            </Link>
                         </div>
 
                         <div className="restoreAndPharse">

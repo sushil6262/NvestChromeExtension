@@ -7,8 +7,9 @@ class SecondSChildtwo extends Component {
         tokenValue: [
             { id: 1, tokenName: "ETH", tokenAmount: 7235, tokenTime: 56, tokenAvatar: Profile },
             { id: 2, tokenName: "STH", tokenAmount: 75, tokenTime: 16, tokenAvatar: Profile },
-            { id: 3, tokenName: "STH", tokenAmount: 75, tokenTime: 16, tokenAvatar: Profile },
-            { id: 4, tokenName: "STH", tokenAmount: 75, tokenTime: 16, tokenAvatar: Profile },
+            { id:2, tokenName: "STH", tokenAmount: 75, tokenTime: 16, tokenAvatar: Profile },
+            { id: 2, tokenName: "STH", tokenAmount: 75, tokenTime: 16, tokenAvatar: Profile },
+            { id: 2, tokenName: "STH", tokenAmount: 75, tokenTime: 16, tokenAvatar: Profile },
         ]
     }
     render() {
@@ -16,7 +17,7 @@ class SecondSChildtwo extends Component {
             <div className="SecondSChildtwo">
                 {this.state.tokenValue.map(token => {
                     return (
-                        <div className="tokenSSCParent" key ={token.id}>
+                        <div className="tokenSSCParent" onClick={this.props.secondToggle} key ={token.id}>
                             <img src={token.tokenAvatar} alt="tokenImage" />
                             <div className="tokenValue">
                                 <h4>{token.tokenAmount} {token.tokenName}</h4>

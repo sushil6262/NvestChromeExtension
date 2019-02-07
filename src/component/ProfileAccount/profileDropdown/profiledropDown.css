@@ -13,7 +13,7 @@
     justify-content: space-between;
 }
 .acountGroup{
-    height: 200px;
+    max-height: 200px;
     margin-top: 12px;
     margin-bottom: 12px;
 }

@@ -7,9 +7,9 @@ class AccountList extends Component {
         userAccountDetail: [
             { id: "1", name: "shorupan", amount: "100", avatar:Profile },
             { id: "2", name: "sushil", amount: "0", avatar:Profile },
-            { id: "3", name: "Kishore", amount: "0", avatar:Profile },
-            { id: "4", name: "chiranjeevi", amount: "0", avatar:Profile },
-            { id: "5", name: "shudanshu", amount: "0", avatar:Profile },
+            // { id: "3", name: "Kishore", amount: "0", avatar:Profile },
+            // { id: "4", name: "chiranjeevi", amount: "0", avatar:Profile },
+            // { id: "5", name: "shudanshu", amount: "0", avatar:Profile },
         ]
     }
     render() {
