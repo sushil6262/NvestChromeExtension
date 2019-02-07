@@ -1,0 +1,25 @@
+.history{
+    padding: 12px;
+    height: 278px;
+    border-top:1px solid #dcdcdc;
+    border-bottom:1px solid red;
+    overflow-y:auto;
+    background-color: #dcdcdc;
+    cursor: pointer;
+}
+.customAmountList{
+    color: black;
+    display: flex;
+    margin-bottom: 12px;
+    box-shadow: 0 0 4px 1px #dcdcdc;
+    background-color: #fff;
+}
+.cstmbdycrd{
+    padding: 12px;
+    background-color: #17244417;
+    
+}
+.numverOverflow{
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
