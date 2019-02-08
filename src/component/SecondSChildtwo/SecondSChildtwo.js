@@ -7,9 +7,9 @@ class SecondSChildtwo extends Component {
         tokenValue: [
             { id: 1, tokenName: "ETH", tokenAmount: 7235, tokenTime: 56, tokenAvatar: Profile },
             { id: 2, tokenName: "STH", tokenAmount: 75, tokenTime: 16, tokenAvatar: Profile },
-            { id:2, tokenName: "STH", tokenAmount: 75, tokenTime: 16, tokenAvatar: Profile },
-            { id: 2, tokenName: "STH", tokenAmount: 75, tokenTime: 16, tokenAvatar: Profile },
-            { id: 2, tokenName: "STH", tokenAmount: 75, tokenTime: 16, tokenAvatar: Profile },
+            { id: 3, tokenName: "STH", tokenAmount: 75, tokenTime: 16, tokenAvatar: Profile },
+            { id: 4, tokenName: "STH", tokenAmount: 75, tokenTime: 16, tokenAvatar: Profile },
+            { id: 5, tokenName: "STH", tokenAmount: 75, tokenTime: 16, tokenAvatar: Profile },
         ]
     }
     render() {

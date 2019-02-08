@@ -9,7 +9,7 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #333333; 
+  background: #dcdcdc; 
 }
 
 /* Handle */
@@ -21,4 +21,8 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
+}
+.customRow{
+  margin: 0;
+  width: 100%;
 }
