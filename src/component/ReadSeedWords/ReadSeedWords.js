@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ExtNavBar from '../ExtTopNavbar/ExtNavBar';
-import { Link } from 'route-lite';
+import { Link, goBack } from 'route-lite';
 import './readSeedWord.css'
 import SeedPhraseReveal from '../SeedPhraseRevel/SeedPhraseReveal';
 
@@ -40,7 +40,7 @@ class ReadSeedWords extends Component {
                                 </div>
                             </div>
                             <div className="btngrp">
-                                <button type="button" className=" btn btn-danger cancelImpButton">Cancel</button>
+                                <button type="button" className=" btn btn-danger cancelImpButton" onClick={() => goBack()}>Cancel</button>
                                 <Link component={SeedPhraseReveal}>
                                     <button type="submit" disabled={!isEnabled} className=" btn btn-primary importButton">Next</button>
                                 </Link>

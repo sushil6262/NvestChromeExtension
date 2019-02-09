@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './IaAccounTabs.css'
+import './IaAccounTabs.css';
+import {goBack} from 'route-lite'
 
 class IaAccounTabs extends Component {
     render() {
@@ -14,7 +15,7 @@ class IaAccounTabs extends Component {
             </form>
                 <br />
 
-            <button className=" btn btn-danger cancelButton">Cancel</button>
+            <button className=" btn btn-danger cancelButton" onClick={() => goBack()}>Cancel</button>
             
             </div>
         );

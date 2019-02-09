@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './importAccounttab.css'
+import './importAccounttab.css';
+import {goBack} from 'route-lite'
 
 class ImportAccountTabs extends Component {
     render() {
@@ -23,7 +24,7 @@ class ImportAccountTabs extends Component {
                         </div>
                     </div>
                     <div className="btngrp">
-                        <button type="button" className=" btn btn-danger cancelImpButton">Cancel</button>
+                        <button type="button" className=" btn btn-danger cancelImpButton" onClick={() => goBack()}>Cancel</button>
                         <button type="submit" className=" btn btn-primary importButton">Import</button>
                     </div>
                 </form>

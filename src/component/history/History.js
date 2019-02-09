@@ -10,9 +10,9 @@ class History extends Component {
             { id: "one1",triggerId:"#one1", message: "Sent Tokens", status: "CONFIRMED", amount: 2324, amountUSD: 655, amountDate:"1/22/2019" },
             { id: "two1",triggerId:"#two1", message: "Sent Tokens", status: "PENDING", amount: 234, amountUSD: 55, amountDate:"1/24/2019" },
             { id: "two2",triggerId:"#two2", message: "Sent Tokens", status: "PENDING", amount: 234, amountUSD: 55, amountDate:"1/24/2019" },
-            { id: "two3",triggerId:"#two3", message: "Sent Tokens", status: "PENDING", amount: 234, amountUSD: 55, amountDate:"1/24/2019" },
+            { id: "two3",triggerId:"#two3", message: "Sent Tokens", status: "CONFIRMED", amount: 234, amountUSD: 55, amountDate:"1/24/2019" },
             { id: "two4",triggerId:"#two4", message: "Sent Tokens", status: "PENDING", amount: 234, amountUSD: 55, amountDate:"1/24/2019" },
-            { id: "two5",triggerId:"#two5", message: "Sent Tokens", status: "PENDING", amount: 234, amountUSD: 55, amountDate:"1/24/2019" },
+            { id: "two5",triggerId:"#two5", message: "Sent Tokens", status: "CONFIRMED", amount: 234, amountUSD: 55, amountDate:"1/24/2019" },
             { id: "two6",triggerId:"#two6", message: "Sent Tokens", status: "PENDING", amount: 234, amountUSD: 55, amountDate:"1/24/2019" },
         ]
     }
