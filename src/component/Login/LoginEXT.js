@@ -17,7 +17,7 @@ class LoginEXT extends Component {
     }
     render() {
         let extPassword = this.state.extPassword;
-        const isEnabled = extPassword === "sushil";
+        const isEnabled = extPassword === "";
         return (
             <div>
                 <div className="loginParent">

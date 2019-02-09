@@ -1,3 +1,7 @@
+.secondContainerToken{
+    height: 500px;
+    padding: 12px;
+}
 .description{
     text-align: justify !important;
     color: #888888;

@@ -1,0 +1,42 @@
+.confirmone{
+    display: flex;
+    justify-content: space-between;
+    height:40px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.confirmone label{
+    margin-top: 12px;
+}
+.onePara{
+    margin:0;
+}
+.contoken{
+    margin: 0;
+    margin-top: 10px;
+    width: 72px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.confirmtwo{
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.tokenValueConf{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: 4px;
+}
+.confirmThree{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 4px 1px #dcdcdc;
+    padding: 8px;
+}
+.fee{
+    display: inline-block;
+    font-size: 11px;
+    margin: 0;
+    margin-left: 28px;
+}

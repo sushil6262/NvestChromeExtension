@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import './history.css';
 import Ethereum from '../../Image/Ethereum.svg';
 import { UncontrolledCollapse, CardBody, Card } from 'reactstrap';
-import TransactionDetail from './TransactionDetail/TransactionDetail'
-import Sushil from '../SSChildone/SecondSChildone'
 class History extends Component {
     state = {
         tokenDetail: [
