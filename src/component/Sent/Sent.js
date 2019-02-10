@@ -59,7 +59,7 @@ class Sent extends Component {
                                     )
                                 })}
                             </select>
-                            <div className="well" style={{ padding: "4px", borderRadius: "0", marginTop: "12px", marginBottom: "-8px" }}>
+                            <div className="well" style={{ padding: "4px", borderRadius: "0", marginTop: "12px", marginBottom: "-8px",backgroundColor:"white" }}>
                                 <div style={{ display: "flex" }}>
                                     <input type="text" className="form-control customformInput" id="eTHValue" autoComplete="off" placeholder="0 ETH" onChange={this.handleChangeETH} /><p style={{ marginTop: "8px" }}>ETH</p>
                                 </div>
@@ -69,7 +69,7 @@ class Sent extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="wellee" style={{ borderRadius: "0", marginTop: "4px", display: "flex" }}>
+                        <div className="wellee" style={{ borderRadius: "0", marginTop: "4px", display: "flex",backgroundColor:"white" }}>
                             <input type='radio' value='0.000105' name='radio' id='radio1' />
                             <label className="btn widthSeparation" for='radio1'>
                                 <p style={{ fontWeight: "900", margin: "0" }}>Fastest</p>
