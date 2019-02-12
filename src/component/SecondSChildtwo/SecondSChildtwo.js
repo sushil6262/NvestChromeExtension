@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './SecondSChildtwo.css';
-import Profile from '../../Image/profile.svg'
+import Profile from '../../Image/profile.svg';
+import NewAccountCard from '../newAccountCard/NewAccountCard';
+import { Link } from 'route-lite'
 
 class SecondSChildtwo extends Component {
     state = {
@@ -17,13 +19,15 @@ class SecondSChildtwo extends Component {
             <div className="SecondSChildtwo">
                 {this.state.tokenValue.map(token => {
                     return (
-                        <div className="tokenSSCParent" onClick={this.props.secondToggle} key ={token.id}>
-                            <img src={token.tokenAvatar} alt="tokenImage" />
-                            <div className="tokenValue">
-                                <h4>{token.tokenAmount} {token.tokenName}</h4>
-                                <h6>{token.tokenTime} TIME</h6>
+                        <Link component={NewAccountCard}>
+                            <div className="tokenSSCParent" onClick={this.props.secondToggle} key={token.id}>
+                                <img src={token.tokenAvatar} alt="tokenImage" />
+                                <div className="tokenValue">
+                                    <h4>{token.tokenAmount} {token.tokenName}</h4>
+                                    <h6>{token.tokenTime} TIME</h6>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     )
                 })}
             </div>
